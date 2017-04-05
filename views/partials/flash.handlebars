@@ -1,0 +1,32 @@
+{{#if errors}}
+<div class="alert alert-danger fade in">
+        <button type="button" data-dismiss="alert" class="close">
+            <i class="fa fa-times-circle-o"></i>
+        </button>
+    {{#each errors}}
+        <div>{{this.msg}}</div>
+    {{/each}}
+</div>
+{{/if}}
+
+{{#if info}}
+    <div class="alert alert-info fade in">
+        <button type="button" data-dismiss="alert" class="close">
+            <i class="fa fa-times-circle-o"></i>
+        </button>
+        {{#each info}}
+            <div>{{this.msg}}</div>
+        {{/each}}
+    </div>
+{{/if}}
+
+{{#if success}}
+    <div class="alert alert-success fade in">
+        <button type="button" data-dismiss="alert" class="close">
+            <i class="fa fa-times-circle-o"></i>
+        </button>
+        {{#each success}}
+            <div>{{this.msg}}</div>
+        {{/each}}
+    </div>
+{{/if}}

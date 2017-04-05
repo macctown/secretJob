@@ -1,0 +1,102 @@
+<header class="noo-header" id="noo-header">
+    <div class="navbar-wrapper">
+        <div class="navbar navbar-default fixed-top shrinkable">
+            <div class="container-boxed max">
+                <div class="navbar-header">
+                    <h1 class="sr-only">JobMonster</h1>
+                    <a class="navbar-toggle collapsed" data-toggle="collapse" data-target=".noo-navbar-collapse">
+                        <span class="sr-only">Navigation</span>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <a class="navbar-toggle member-navbar-toggle collapsed" data-toggle="collapse" data-target=".noo-user-navbar-collapse">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <a href="./" class="navbar-brand">
+                        <img class="noo-logo-img noo-logo-normal" src="/images/logo-jobmonster.png" alt="">
+                        <img class="noo-logo-mobile-img noo-logo-normal" src="/images/logo-mobile.png" alt="">
+                    </a>
+                </div>
+                {{#if user}}
+                    <nav class="collapse navbar-collapse noo-navbar-collapse">
+                        <ul class="navbar-nav sf-menu">
+                            <li class="current-menu-item align-left">
+                                <a href="/dashboard">Home</a>
+                            </li>
+                            <li class="align-left">
+                                <a href="company.html">Applied</a>
+                            </li>
+                            <li class="align-left">
+                                <a href="company.html">Community</a>
+                            </li>
+                            <li class="nav-item-member-profile login-link align-right">
+                                <a href="#" class="sf-with-ul">
+                                    <span class="profile-name">{{user.profile.name}}</span>
+                                    <span class="profile-avatar">
+												<img alt="" src="/images/avatar/user_50x50.jpg" height="40" width="40">
+											</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    {{#if user.isResumeStart}}
+                                        <li><a href="/resume"><i class="fa fa-edit"></i> View Resume</a></li>
+                                        <li><a href="/resume/edit"><i class="fa fa-file-text-o"></i> Edit Resume</a></li>
+                                    {{else}}
+                                        <li><a href="/resume/create"><i class="fa fa-file-text-o"></i> Create Resume</a></li>
+                                    {{/if}}
+                                    <li><a href="candidate-bookmark-job.html"><i class="fa fa-heart"></i> Bookmarked Jobs</a></li>
+                                    <li class="divider" role="presentation"></li>
+                                    <li><a href="/account"><i class="fa fa-user"></i> My Profile</a></li>
+                                    <li><a href="/logout"><i class="fa fa-sign-out"></i> Sign Out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    {{else}}
+                    <nav class="collapse navbar-collapse noo-navbar-collapse">
+                        <ul class="navbar-nav sf-menu">
+                            <li class="current-menu-item align-left">
+                                <a href="./">Home</a>
+                            </li>
+                            <li class="align-left">
+                                <a href="jobs.html">Jobs</a>
+                                <ul class="sub-menu">
+                                    <li><a href="jobs-fullwidth.html">Jobs Fullwidth</a></li>
+                                    <li><a href="jobs-detail.html">Jobs Detail</a></li>
+                                    <li><a href="post-a-job-step-1.html">Post a job - Step 1</a></li>
+                                    <li><a href="post-a-job-step-2.html">Post a job - Step 2</a></li>
+                                    <li><a href="post-a-job-step-3.html">Post a job - Step 3</a></li>
+                                    <li><a href="post-a-job-step-4.html">Post a job - Step 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="align-left">
+                                <a href="company.html">Companies</a>
+                                <ul class="sub-menu">
+                                    <li><a href="company-detail.html">Company Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="align-left">
+                                <a href="resume.html">Resumes</a>
+                                <ul class="sub-menu">
+                                    <li><a href="resume-detail.html">Resume Detail</a></li>
+                                    <li><a href="post-a-resume-step-1.html">Post a resume - Step 1</a></li>
+                                    <li><a href="post-a-resume-step-2.html">Post a resume - Step 2</a></li>
+                                    <li><a href="post-a-resume-step-3.html">Post a resume - Step 3</a></li>
+                                    <li><a href="post-a-resume-step-4.html">Post a resume - Step 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item-member-profile login-link align-center">
+                                <a href="#" class="member-links member-login-link" data-rel="loginModal">
+                                    <i class="fa fa-sign-in"></i>&nbsp;Login
+                                </a>
+                            </li>
+                            <li class="nav-item-member-profile register-link">
+                                <a class="member-links member-register-link" href="#" data-rel="registerModal">
+                                    <i class="fa fa-key"></i>&nbsp;Register
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</header>

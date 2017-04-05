@@ -1,0 +1,60 @@
+<div class="memberModalRegister modal fade" id="userregisterModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-member">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Sign Up</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row login-socical">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <a class="btn btn-block btn-social btn-twitter" href="/auth/linkedin">
+                            <span class="fa fa-linkedin"></span> Register with Linkedin
+                        </a>
+                    </div>
+                </div>
+                {{>flash}}
+                <form class="noo-ajax-register-form form-horizontal">
+                    <div class="form-group row user_login_container">
+                        <label class="col-sm-3 control-label">Username</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="user_login form-control" name="user_login" required placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 control-label">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="user_email form-control" name="user_email" required placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 control-label">Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="user_password form-control" required value="" name="user_password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 control-label">Retype your password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="cuser_password form-control" required value="" name="cuser_password" placeholder="Repeat password">
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <div class="checkbox account-reg-term">
+                            <div class="form-control-flat">
+                                <label class="checkbox">
+                                    <input class="account_reg_term" type="checkbox" title="Please agree with the term">
+                                    <i></i>
+                                    I agree with the <a href="#">Terms of use</a>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

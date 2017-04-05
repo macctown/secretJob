@@ -1,0 +1,131 @@
+<div class="colophon wigetized">
+    <div class="container-boxed max">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="widget widget_text">
+                    <h4 class="widget-title">Jobmonster</h4>
+                    <div class="textwidget">
+                        Donec elementum tellus vel magna bibendum, et fringilla metus tristique. Vestibulum cursus venenatis lacus, vel eleifend lectus blandit a.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="widget widget_text">
+                    <h4 class="widget-title">Contact Us</h4>
+                    <div class="textwidget">
+                        <p>
+                            JobMonster Inc.<br/>
+                            54/29 West 21st Street, New York, 10010, USA<br/>
+                            <a href="mailto:email@domain.com">email@domain.com</a><br/>
+                            http://jobmonster.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="widget mailchimp-widget">
+                    <h4 class="widget-title">NEWSLETTER</h4>
+                    <form class="mc-subscribe-form">
+                        <label for="email">
+                            Fusce magna tortor, posuere a condimentum ac, vehicula sit amet lorem.
+                        </label>
+                        <div class="mc-email-wrap">
+                            <input type="email" id="email" name="mc_email" class="form-control mc-email" value="" placeholder="Enter your email here..."/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="colophon site-info">
+    <div class="container-full">
+        <div class="footer-more">
+            <div class="container-boxed">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="noo-bottom-bar-content">
+                            © 2015 Jobmonster. Designed with
+                            <i> </i> by NooTheme
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="#" class="go-to-top hidden-print"><i class="fa fa-angle-up"></i></a>
+
+<script type='text/javascript' src='/js/jquery.js'></script>
+<script type='text/javascript' src='/js/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='/js/modernizr-2.7.1.min.js'></script>
+<script type='text/javascript' src='/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='/js/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='/js/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript' src='/js/isotope-2.0.0.min.js'></script>
+<script type='text/javascript' src='/js/jquery.touchSwipe.min.js'></script>
+<script type='text/javascript' src='/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='/js/hoverIntent-r7.min.js'></script>
+<script type='text/javascript' src='/js/superfish-1.7.4.min.js'></script>
+<script type='text/javascript' src='/js/script.js'></script>
+<script type='text/javascript' src='/js/chosen.jquery.min.js'></script>
+<script type='text/javascript' src='/js/jquery.datetimepicker.js'></script>
+<script type='text/javascript' src='/js/jquery.parallax-1.1.3.js'></script>
+<script type='text/javascript' src='/js/jquery.carouFredSel-6.2.1-packed.js'></script>
+<script type='text/javascript' src='/js/custom.js'></script>
+<script type='text/javascript' src='/js/joblab.js'></script>
+<script>
+    jQuery('document').ready(function ($) {
+        $("#slider_employer").carouFredSel({
+            responsive	: true,
+            auto 		: false,
+            items		: {
+                width		: 180,
+                height		: "variable",
+                visible		: {
+                    min			: 1,
+                    max			: 6
+                }
+            },
+            pagination: { container : ".pag_slider_employer", keys	: true }
+        });
+        $("#slider_testimonial").carouFredSel({
+            responsive	: true,
+            auto 		: false,
+            items		: {
+                width		: 180,
+                height		: "variable",
+                visible		: {
+                    min			: 1,
+                    max			: 3
+                }
+            },
+            pagination: { container : ".pag_slider_testimonial", keys	: true }
+        });
+        $('.job-slider .posts-loop-content').carouFredSel({
+            infinite: true,
+            circular: true,
+            responsive: true,
+            debug : false,
+            items: {
+                start: 0
+            },
+            scroll: {
+                items: 1,
+                duration: 400,
+                fx: "crossfade"
+            },
+            auto: {
+                timeoutDuration: 3000,
+                play: true
+            },
+            swipe: {
+                onTouch: true,
+                onMouse: true
+            },
+            prev : "#prev",
+            next : "#next"
+        });
+    });
+</script>

@@ -1,0 +1,110 @@
+<div class="noo-page-heading">
+    <div class="container-boxed max parallax-content">
+        <div class="page-heading-info">
+            <h1 class="page-title">Account and Setting</h1>
+        </div>
+    </div>
+    <div class="parallax heading" data-parallax="1" data-parallax_no_mobile="1" data-velocity="0.1"></div>
+</div>
+<div class="container-wrap">
+    <div class="container-boxed max offset main-content">
+        <div class="row">
+            <div class="noo-main col-md-12 bottom-blank50">
+                <div class="info-block col-md-12">
+                    <div class="posts-loop-title">
+                        <h3>Profile</h3>
+                    </div>
+                    <form action="/account/profile" method="post">
+                        <input type="hidden" name="_csrf" value="{{_csrf}}">
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 control-label">Email</label>
+                            <div class="col-sm-7">
+                                <input type="email" name="email" id="email" value="{{user.email}}" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-3 control-label">Name</label>
+                            <div class="col-sm-7">
+                                <input type="text" name="name" id="name" value="{{user.profile.name}}" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="gravatar" class="col-sm-3 control-label">Gravatar</label>
+                            <div class="col-sm-4">
+                                <img src="https://gravatar.com/avatar/0ea07af91bc4fa7e50a9235fb9d39bc2?s=200&amp;d=retro" width="100" height="100" class="profile">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-4">
+                                <button type="submit" class="btn btn btn-primary">
+                                    <i class="fa fa-pencil"></i>
+                                    Update Profile
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="info-block col-md-12">
+                    <div class="posts-loop-title">
+                        <h3>Reset Password</h3>
+                    </div>
+                    <form action="/account/password" method="post">
+                        <input type="hidden" name="_csrf" value="{{_csrf}}">
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 control-label">Password</label>
+                            <div class="col-sm-7">
+                                <input type="password" name="password" id="password" value="{{password}}" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-3 control-label">Confirm Password</label>
+                            <div class="col-sm-7">
+                                <input type="password" name="confirmPassword" id="confirmPassword" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-4">
+                                <button type="submit" class="btn btn btn-primary">
+                                    <i class="fa fa-pencil"></i>
+                                    Change Password
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="info-block col-md-12">
+                    <div class="posts-loop-title">
+                        <h3>Link Account</h3>
+                    </div>
+                    <div class="col-sm-offset-3 col-sm-4">
+                    {{#if user.linkedin}}
+                        <p>
+                            <a href="/auth/unlink/linkedin">UnLink your Linkedin account</a>
+                        </p>
+                        {{else}}
+                        <a href="/auth/linkedin">Link your Linkedin account</a>
+                        </p>
+                    {{/if}}
+                    </div>
+                </div>
+                <div class="info-block col-md-12">
+                    <div class="posts-loop-title">
+                        <h3>Deactivate Account</h3>
+                    </div>
+                    <form action="/account/delete" method="post">
+                        <input type="hidden" name="_csrf" value="{{_csrf}}">
+                        <div class="form-group">
+                            <p class="col-sm-offset-3 col-sm-4">You can delete your account, but keep in mind this action is irreversible.</p>
+                            <div class="col-sm-offset-3 col-sm-4">
+                                <button type="submit" class="btn btn btn-danger">
+                                    <i class="fa fa-pencil"></i>
+                                    Deactivate Account
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

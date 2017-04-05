@@ -1,0 +1,340 @@
+a:hover,a:focus,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.h1 a:hover,.h2 a:hover,.h3 a:hover,.h4 a:hover,.h5 a:hover,.h6 a:hover {
+	color:#eb5982;
+}
+
+.text-primary {
+	color:#eb5982;
+}
+
+.bg-primary {
+	background-color:#eb5982;
+}
+
+.panel-primary {
+  border-color: #eb5982;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #eb5982;
+  border-color: #eb5982;
+}
+
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #eb5982;
+}
+.panel-primary > .panel-heading .badge {
+  color: #eb5982;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #eb5982;
+}
+
+.form-control-flat > .radio i,
+.form-control-flat > .checkbox i {
+  color: #eb5982;
+}
+
+.form-control-flat .radio i:after {
+  background: #eb5982;
+}
+.form-group .dropdown .dropdown-menu > li > a:focus,
+.form-group .dropdown .dropdown-menu > li > a:hover {
+  background-color: #eb5982;
+}
+.btn-primary,
+.widget_newsletterwidget .newsletter-submit {
+  background-color: #eb5982;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.widget_newsletterwidget .newsletter-submit:hover,
+.widget_newsletterwidget .newsletter-submit:focus,
+.widget_newsletterwidget .newsletter-submit:active,
+.widget_newsletterwidget .newsletter-submit.active,
+.open > .dropdown-toggle.widget_newsletterwidget .newsletter-submit {
+  background-color: #eb5982;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #eb5982;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #eb5982;
+}
+.noo-menu li > a:hover,
+.noo-menu li > a:focus {
+  color: #eb5982;
+}
+.noo-menu li.current-menu-item > a,
+.noo-menu li.active > a {
+  color: #eb5982;
+}
+.navbar-nav li > a:hover,
+.navbar-nav li > a:focus {
+  color: #eb5982;
+}
+.navbar-nav li:hover > a,
+.navbar-nav li .sfHover > a {
+  color: #eb5982;
+}
+.navbar-nav ul.sub-menu li > a:hover {
+  color: #eb5982;
+}
+.navbar-nav ul.sub-menu li:hover .navbar-nav ul.sub-menu li.sfHover > a {
+  color: #eb5982;
+}
+.navbar-nav ul.sub-menu li.current-menu-item > a {
+  color: #eb5982;
+}
+@media (min-width: 768px) {
+  body.page-menu-transparent .navbar:not(.navbar-fixed-top) .navbar-nav > li > a:hover {
+    color: #eb5982;
+  }
+}
+.wigetized .widget a:hover {
+  color: #eb5982;
+}
+.wigetized .widget ul li a:hover,
+.wigetized .widget ol li a:hover {
+  color: #eb5982;
+}
+.wigetized .widget.widget_recent_entries li a:hover {
+  color: #eb5982;
+}
+.colophon.site-info .footer-menu .noo-menu li a:hover {
+  color: #eb5982;
+}
+.colophon.site-info .footer-more a:hover {
+  color: #eb5982;
+}
+.noo-page-heading .page-title .count {
+  background-color: #eb5982;
+}
+.label-primary {
+  background-color: #eb5982;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #eb5982;
+}
+.progress-bar {
+  background-color: #eb5982;
+}
+.hentry.format-quote a:hover,
+.hentry.format-link a:hover {
+  color: #eb5982 !important;
+}
+.single .hentry.format-quote .content-title:hover,
+.single .hentry.format-link .content-title:hover {
+  color: #eb5982 !important;
+}
+.single .hentry.format-quote a:hover,
+.single .hentry.format-link a:hover {
+  color: #eb5982 !important;
+}
+.content-thumb:before {
+  background: #eb5982;
+}
+.content-meta > span > a:hover {
+  color: #eb5982;
+}
+.read-more {
+  background-color: #eb5982;
+}
+.read-more:hover,
+.read-more:focus,
+.read-more:active,
+.read-more.active,
+.open > .dropdown-toggle.read-more {
+  background-color: #eb5982;
+}
+.single-noo-portfolio .attribute-list > li a:hover {
+  color: #eb5982;
+}
+.post-navigation .prev-post {
+  background: #eb5982;
+}
+.post-navigation .next-post {
+  background: #eb5982;
+}
+.single .sticky_post {
+  color: #eb5982;
+}
+h2.comments-title span {
+  color: #eb5982;
+}
+.comment-author a:hover {
+  color: #eb5982;
+}
+.comment-reply-link:hover {
+  color: #eb5982;
+}
+.form-submit input[type="submit"] {
+  background-color: #eb5982;
+}
+.form-submit input[type="submit"]:hover,
+.form-submit input[type="submit"]:focus,
+.form-submit input[type="submit"]:active,
+.form-submit input[type="submit"].active,
+.open > .dropdown-toggle.form-submit input[type="submit"] {
+  background-color: #eb5982;
+}
+.loadmore-loading span {
+  background: #eb5982;
+}
+.pagination .page-numbers:hover:not(.disabled),
+.pagination .page-numbers.current:not(.disabled) {
+  background: #eb5982;
+}
+.noo-slider.testimonial-slide .slider-indicators a.selected {
+  border: 2px solid #eb5982;
+}
+.noo-slider.about-slider .slider-control:hover {
+  background: #eb5982;
+}
+.masonry-header .masonry-filters ul li a:hover,
+.masonry-header .masonry-filters ul li a.selected {
+  color: #eb5982;
+}
+.noo-pricing-table .noo-pricing-column .pricing-content .pricing-header .pricing-value .noo-price {
+  border: 5px solid #eb5982;
+}
+.noo-pricing-table .noo-pricing-column .pricing-content .pricing-info ul li i {
+  color: #eb5982;
+}
+.noo-pricing-table.ascending .noo-pricing-column.featured .pricing-content .pricing-footer .btn,
+.noo-pricing-table.ascending .noo-pricing-column.featured .pricing-content .pricing-footer .widget_newsletterwidget .newsletter-submit {
+  border-color: #eb5982 !important;
+  color: #eb5982 !important;
+}
+.noo-member .member-avatar .member-social a:hover {
+  color: #eb5982;
+}
+.single-noo_job .job-desc ul li:before,
+.single-noo_job .more-jobs ul li:before {
+  color: #eb5982;
+}
+.gmap-loading .gmap-loader > div {
+  background: none repeat scroll 0 0 #eb5982;
+}
+.navbar-nav li.menu-item-post-btn > a,
+.navbar-nav li.menu-item-post-btn > a:hover {
+  background-color: #eb5982;
+}
+.navbar-nav li.menu-item-post-btn > a:hover,
+.navbar-nav li.menu-item-post-btn > a:hover:hover,
+.navbar-nav li.menu-item-post-btn > a:focus,
+.navbar-nav li.menu-item-post-btn > a:hover:focus,
+.navbar-nav li.menu-item-post-btn > a:active,
+.navbar-nav li.menu-item-post-btn > a:hover:active,
+.navbar-nav li.menu-item-post-btn > a.active,
+.navbar-nav li.menu-item-post-btn > a:hover.active,
+.open > .dropdown-toggle.navbar-nav li.menu-item-post-btn > a,
+.open > .dropdown-toggle.navbar-nav li.menu-item-post-btn > a:hover {
+  background-color: #eb5982;
+}
+.login-form-links > span a,
+.login-form-links > span .fa,
+.login-form-links > span .noo-vc-accordion .panel-title a:before {
+  color: #eb5982;
+}
+.jsteps li.completed .jstep-num a:before,
+.jsteps li.active .jstep-num a:before {
+  border: 14px solid #eb5982;
+}
+.account-actions a:hover,
+.account-actions a.active {
+  background: #eb5982;
+  border-color: #eb5982;
+}
+.jpanel-title {
+  background: #eb5982;
+}
+.member-manage .table tbody tr:hover a:not(.btn-primary):hover {
+  color: #eb5982;
+}
+.add-new-location a {
+  color: #eb5982;
+}
+.job-application-status.job-application-status-pending,
+.job-application-status.job-application-status-PendingApproval {
+  background: #eb5982;
+}
+.job-action a.bookmark-job i:hover {
+  color: #eb5982;
+}
+.job-action a.bookmark-job.bookmarked {
+  color: #eb5982;
+}
+.job-social a.company_website {
+  color: #eb5982;
+}
+.job-social a.company_website span {
+  border-bottom: 1px dotted #eb5982;
+  color: #eb5982;
+}
+.resume .title-general span {
+  color: #eb5982;
+}
+.download a {
+  color: #eb5982;
+  border-bottom: 1px dashed #eb5982;
+}
+.featured_slider .page a.selected {
+  background: #eb5982;
+}
+a:hover,a:focus,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.h1 a:hover,.h2 a:hover,.h3 a:hover,.h4 a:hover,.h5 a:hover,.h6 a:hover {
+  color:#eb5982;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover, a:hover, a:focus, .text-primary, a.text-primary:hover, .noo-menu li>a:hover, .noo-menu li>a:active, .noo-menu li.current-menu-item>a, body.page-menu-transparent .navbar:not(.navbar-fixed-top) .navbar-nav>li>a:hover, .navbar-nav li>a:hover, .navbar-nav li>a:focus, .navbar-nav li:hover>a, .navbar-nav li.sfHover>a, .navbar-nav li.current-menu-item>a {
+  color: #eb5982;
+}
+.read-more, .read-more:hover, .noo-page-heading .page-title .count, .posts-loop.grid.staffs .loop-item-title:before, .jpanel-title, .commerce ul.products li.product figure .product-wrap .shop-loop-actions .button:hover, .commerce ul.products li.product figure .product-wrap .shop-loop-actions .shop-loop-quickview:hover, .commerce ul.products li.product figure .product-wrap .shop-loop-actions .yith-wcwl-add-to-wishlist .add_to_wishlist:hover, .commerce ul.products li.product figure .product-wrap .shop-loop-actions .yith-wcwl-add-to-wishlist .add_to_wishlist:hover:before, .commerce ul.products li.product figure .product-wrap .shop-loop-actions .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:hover, .commerce ul.products li.product figure .product-wrap .shop-loop-actions .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:hover, .commerce .widget_layered_nav ul li.chosen a:hover, .btn-primary, .form-submit input[type="submit"], .wpcf7-submit, .widget_newsletterwidget .newsletter-submit, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .form-submit input[type="submit"]:hover, .form-submit input[type="submit"]:focus, .btn-primary.active, .wpcf7-submit:hover, .progress-bar, .noo-step-icon .noo-step-icon-item:after, .noo-step-icon .noo-step-icon-item:before {
+  background-color: #eb5982;
+}
+.bg-primary,.navbar-nav li.menu-item-post-btn>a,.navbar-nav li.menu-item-post-btn>a:hover,.navbar-nav li.menu-item-post-btn>a:focus,.navbar-nav li.menu-item-post-btn>a:hover:hover {
+	background-color: #eb5982;
+}
+@media (min-width: 992px) {
+.navbar-default .navbar-nav.sf-menu>li>ul.sub-menu {
+	border-top-color: #eb5982;
+}
+
+.navbar-default .navbar-nav.sf-menu>li>ul.sub-menu:before,.navbar-nav.sf-menu>li.align-center>ul.sub-menu:before,.navbar-nav.sf-menu>li.align-right>ul.sub-menu:before,.navbar-nav.sf-menu>li.align-left>ul.sub-menu:before,.navbar-nav.sf-menu>li.full-width.sfHover>a:before {
+	border-bottom-color: #eb5982;
+}
+}
+.posts-loop.slider .loop-thumb-content .carousel-indicators li.active {
+	background-color:#eb5982;
+	border-color:#eb5982;
+}
+
+.download a,.job-social a.company_website span {
+	border-bottom-color:#eb5982;
+	color:#eb5982;
+}
+.content-meta>span>a:hover,.hentry.format-quote a:hover,.hentry.format-link a:hover,.single .hentry.format-quote .content-title:hover,.single .hentry.format-link .content-title:hover,.single .hentry.format-quote a:hover,.single .hentry.format-link a:hover,.sticky h2.content-title:before {
+	color:#eb5982!important;
+}
+.account-actions a.active {
+	background-color:#eb5982;
+}
+.navbar-nav ul.sub-menu li>a:hover,.navbar-nav ul.sub-menu li>a:focus,.navbar-nav ul.sub-menu li:hover>a,.navbar-nav ul.sub-menu li.sfHover>a,.navbar-nav ul.sub-menu li.current-menu-item>a,.posts-loop.grid .event-info a:hover,.posts-loop.grid.staffs .loop-item-title a,.job-action a.bookmark-job i:hover,.job-action a.bookmark-job.bookmarked,.resume .title-general span,.member-manage .table tbody tr:hover a:not(.btn-primary):hover,.noo-pricing-table .noo-pricing-column .pricing-content .pricing-info ul li i,.woocommerce ul.products li.product figure .product-wrap .shop-loop-actions a:hover,.woocommerce ul.products li.product figcaption .product_title a:hover,h2.comments-title span,.comment-reply-link,.comment-author a:hover,.wigetized .widget a:hover,.wigetized .widget ul li a:hover,.wigetized .widget ol li a:hover,.wigetized .widget.widget_recent_entries li a:hover,.btn-link:hover,.btn-link:focus,.noo-social a:hover,.login-form-links>span a,.login-form-links>span .fa,.form-control-flat>.radio i,.form-control-flat>.checkbox i {
+	color:#eb5982;
+}
+.noo-pricing-table .noo-pricing-column .pricing-content .pricing-header .pricing-value .noo-price,.jsteps li.completed .jstep-num a:before,.jsteps li.active .jstep-num a:before,.noo-step-icon .noo-step-icon-class:after {
+	border-color:#eb5982;
+}
+
+.content-thumb:before,.entry-tags a:hover,.pagination .page-numbers:hover:not(.disabled),.pagination .page-numbers.current:not(.disabled),.post-navigation .prev-post,.post-navigation .next-post,.loadmore-loading span,.form-control-flat .radio i:after {
+	background:#eb5982;
+}
+.noo-recent-news .loop-item-wrap:hover .loop-item-featured:before {
+    background-color: rgba(235,89,130,0.70);
+}
