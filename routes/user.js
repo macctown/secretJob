@@ -40,7 +40,6 @@ var userController = {
                 return next(err);
             }
             if (!user) {
-                console.log(info);
                 req.flash('errors', info);
                 return res.redirect('/#userloginModal');
             }

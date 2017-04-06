@@ -1646,3 +1646,20 @@
 {"level":"info","message":"USER SERVICE Initializing view engine","timestamp":"2017-04-05T23:11:50.614Z"}
 {"level":"info","message":"USER SERVICE Initializing routes","timestamp":"2017-04-05T23:11:50.665Z"}
 {"level":"info","message":"USER SERVICE initialized SUCCESSFULLY","timestamp":"2017-04-05T23:11:50.817Z"}
+{"level":"info","message":"[Server] Starting USER SERVICE initialization","timestamp":"2017-04-05T23:31:14.382Z"}
+{"level":"info","message":"USER SERVICE HTTPS Server Listening on Port 3000","timestamp":"2017-04-05T23:31:14.456Z"}
+{"level":"info","message":"USER SERVICE Initializing view engine","timestamp":"2017-04-05T23:31:14.458Z"}
+{"level":"info","message":"USER SERVICE Initializing routes","timestamp":"2017-04-05T23:31:14.589Z"}
+{"level":"info","message":"USER SERVICE initialized SUCCESSFULLY","timestamp":"2017-04-05T23:31:15.124Z"}
+{"level":"info","message":"[Server] Starting USER SERVICE initialization","timestamp":"2017-04-05T23:36:32.540Z"}
+{"level":"info","message":"USER SERVICE HTTPS Server Listening on Port 3000","timestamp":"2017-04-05T23:36:32.553Z"}
+{"level":"info","message":"USER SERVICE Initializing view engine","timestamp":"2017-04-05T23:36:32.554Z"}
+{"level":"info","message":"USER SERVICE Initializing routes","timestamp":"2017-04-05T23:36:32.602Z"}
+{"level":"info","message":"USER SERVICE initialized SUCCESSFULLY","timestamp":"2017-04-05T23:36:32.795Z"}
+{"level":"info","message":"[Server] Starting USER SERVICE initialization","timestamp":"2017-04-06T00:48:28.450Z"}
+{"level":"info","message":"USER SERVICE HTTPS Server Listening on Port 3000","timestamp":"2017-04-06T00:48:28.463Z"}
+{"level":"info","message":"USER SERVICE Initializing view engine","timestamp":"2017-04-06T00:48:28.465Z"}
+{"level":"info","message":"USER SERVICE Initializing routes","timestamp":"2017-04-06T00:48:28.515Z"}
+{"level":"info","message":"USER SERVICE initialized SUCCESSFULLY","timestamp":"2017-04-06T00:48:28.682Z"}
+{"level":"warn","message":"[SERVER] 404 NOT FOUND: Received request (undefined) can not be found","timestamp":"2017-04-06T00:48:53.975Z"}
+{"level":"error","message":"USER SERVICE 500 Error: Internal Server Error","timestamp":"2017-04-06T00:48:53.980Z"}

@@ -3678,10 +3678,10 @@ fieldset[disabled] .widget_newsletterwidget .newsletter-submit {
 .widget_newsletterwidget .newsletter-submit:active,
 .widget_newsletterwidget .newsletter-submit.active,
 .open > .dropdown-toggle.widget_newsletterwidget .newsletter-submit {
-  opacity: 0.8;
+  opacity: 0.5;
   filter: alpha(opacity=80);
   color: #44494b;
-  background-color: #e6b706;
+  background-color: blanchedalmond;
   border-color: transparent;
 }
 .btn-success {
@@ -15413,4 +15413,8 @@ fieldset[disabled] .navbar-nav li.menu-item-post-btn > a:hover {
 
 .bottom-blank20 {
 	margin-bottom: 20px;
+}
+
+.radio-btn{
+	visibility:hidden;
 }
