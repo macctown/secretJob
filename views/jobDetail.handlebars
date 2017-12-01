@@ -1,0 +1,100 @@
+<div class="noo-page-heading">
+    <div class="container-boxed max parallax-content">
+        <div class="page-heading-info">
+            <h1 class="page-title">{{job.position}} <span class="count">500 views</span> </h1>
+        </div>
+        <div class="page-sub-heading-info">
+            <p class="content-meta">
+                <span class="job-location">
+								<i class="fa fa-map-marker"></i>
+								<a href="#"><em>{{job.location}}</em></a>
+							</span>
+                <span>
+								<time class="entry-date" datetime="2015-08-10T09:46:53+00:00">
+									<i class="fa fa-calendar"></i>
+									{{job.createdAt}}
+								</time>
+							</span>
+                <span>
+									<i class="fa fa-building-o"></i>
+                            {{job.company.name}}
+							</span>
+            </p>
+        </div>
+    </div>
+    <div class="parallax heading" data-parallax="1" data-parallax_no_mobile="1" data-velocity="0.1"></div>
+</div>
+<div class="container-wrap">
+    <div class="container-boxed max offset main-content single-noo_job">
+        <div class="row">
+            <div class="noo-main col-md-8">
+                <div class="job-desc">
+                    {{{job.description}}}
+                </div>
+                <div class="job-action">
+                    <a class="btn btn-primary" href="{{job.link}}" target="_blank">
+                        Apply for this job
+                    </a>
+                    <a class="btn btn-default" href="#">Auto-Apply</a>
+                    <a class="bookmark-job pull-right" href="javascript:void(0);" data-toggle="tooltip" data-original-title="Bookmark Job">
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="noo-sidebar col-md-4">
+                <div class="noo-sidebar-wrap">
+                    <div class="company-desc">
+                        <a class="company-header">
+                            <h3 class="company-title">
+                                <p>{{{job.company.name}}}
+                                    <span>(Powered by <img src="https://www.glassdoor.com/static/img/api/glassdoor_logo_80.png" alt="glassdoor">)</span>
+                                </p>
+                            </h3>
+                            <a href="http://{{{job.company.glassdoor.website}}}" target="_blank"><img src="{{job.company.glassdoor.squareLogo}}" height='150' width="150"/></a>
+                        <br><br>
+                        <p>Overall Rating: <b>{{job.company.glassdoor.overallRating}}</b></p>
+                        <p>Culture&Values Rating: <b>{{job.company.glassdoor.cultureAndValuesRating}}</b></p>
+                        <p>Leadership Rating: <b>{{job.company.glassdoor.seniorLeadershipRating}}</b></p>
+                        <p>Compensation&Benefits Rating: <b>{{job.company.glassdoor.compensationAndBenefitsRating}}</b></p>
+                        <p>Career Opportunities Rating: <b>{{job.company.glassdoor.careerOpportunitiesRating}}</b></p>
+                    </div>
+                    <hr>
+                    <div class="company-desc">
+                        <div class="company-header">
+                            <h3 class="company-title">
+                                <p>{{{job.company.name}}} - Recruiters </p>
+                            </h3>
+                        </div>
+                        {{#each job.company.recruiters}}
+                        <div class="author-bio">
+                            <div class="author-avatar">
+                                <img alt='' src='{{this.avatar}}' height='80' width='80'/>
+                            </div>
+                            <div class="author-info">
+                                <h4>
+                                    <a href="{{this.linkedinUrl}}" target="_blank">{{this.name}} </a>
+                                </h4>
+                                <span class="job-location">
+                                    <i class="fa fa-map-marker"></i>
+                                    <a href="#"><em>{{this.location}}</em></a>
+                                </span>
+                                <p>{{this.title}}</p>
+
+                                <a href="{{this.linkedinUrl}}" target="_blank" class="btn btn-block btn-social btn-linkedin hit-btn">
+                                    <span class="fa fa-linkedin"></span> Linkedin Profile
+                                </a>
+                                {{#compare this.email "unknown" operator="!="}}
+                                    <a href="mailto:{{this.email}}" target="_blank" class="btn btn-block btn-social btn-reddit hit-btn">
+                                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email This Recruiter
+                                    </a>
+                                {{/compare}}
+                            </div>
+                            <hr>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

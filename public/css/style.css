@@ -804,6 +804,8 @@ address {
 .noo-sidebar-wrap {
 	background:#fff;
 	padding:0;
+	max-height:915px;
+	overflow-y: scroll;
 }
 @media (max-width: 991px) {
 .noo-sidebar-wrap {
@@ -3678,10 +3680,10 @@ fieldset[disabled] .widget_newsletterwidget .newsletter-submit {
 .widget_newsletterwidget .newsletter-submit:active,
 .widget_newsletterwidget .newsletter-submit.active,
 .open > .dropdown-toggle.widget_newsletterwidget .newsletter-submit {
-  opacity: 0.5;
+  opacity: 0.8;
   filter: alpha(opacity=80);
   color: #44494b;
-  background-color: blanchedalmond;
+  background-color: #e6b706;
   border-color: transparent;
 }
 .btn-success {
@@ -6534,6 +6536,10 @@ a.label:focus {
   position: absolute;
   top: 0;
   left: 0;
+}
+.author-bio {
+	margin-top: 30px;
+
 }
 .hentry .content-left .author-bio .author-avatar {
   margin-top: 4px;
@@ -14612,8 +14618,8 @@ fieldset[disabled] .navbar-nav li.menu-item-post-btn > a:hover {
 }
 .company-header .company-title {
   font-size: 18px;
-  width: 50%;
   float: left;
+	text-transform: capitalize;
 }
 .company-header .company-featured {
   width: 50%;
@@ -15413,8 +15419,4 @@ fieldset[disabled] .navbar-nav li.menu-item-post-btn > a:hover {
 
 .bottom-blank20 {
 	margin-bottom: 20px;
-}
-
-.radio-btn{
-	visibility:hidden;
 }

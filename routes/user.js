@@ -4,6 +4,9 @@ var crypto = require('crypto');
 var nodemailer = require('nodemailer');
 var passport = require('passport');
 var User = require('../models/User');
+var Company = require('../models/Company');
+var Job = require('../models/Job');
+var Recruiter = require('../models/Recruiter');
 
 
 var userController = {
@@ -40,6 +43,7 @@ var userController = {
                 return next(err);
             }
             if (!user) {
+                console.log(info);
                 req.flash('errors', info);
                 return res.redirect('/#userloginModal');
             }
@@ -77,9 +81,21 @@ var userController = {
 
     getDashboard : function(req, res) {
         "use strict";
-        res.render('dashboard', {
-            title: 'Dashboard'
-        });
+        Job.find({})
+            .populate('company')
+            .populate({
+                path: 'company',
+                populate: {
+                    path: 'recruiters',
+                    model: 'Recruiter'
+                }
+            })
+            .exec(function(err, jobList){
+                res.render('dashboard', {
+                    title: 'Dashboard',
+                    jobList: jobList
+                });
+            });
     },
 
     /**

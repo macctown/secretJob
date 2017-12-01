@@ -4,6 +4,7 @@
 var homeController = require('./home');
 var userController = require('./user');
 var resumeController = require('./resume');
+var jobController = require('./job');
 var isAuthenticate = require('../auth/isAuthenticate');
 var passport = require('passport');
 
@@ -47,6 +48,8 @@ module.exports = function(app, passport, logger) {
     app.get('/resume/workEducation', isAuthenticate, resumeController.workEduPage);
     app.get('/resume/portofolio', isAuthenticate, resumeController.portoPage);
 
+    app.post('/job/search', isAuthenticate, jobController.search);
+    app.get('/job/detail', isAuthenticate, jobController.getDetail);
 
     //app.get('/api/upload', apiController.getFileUpload);
     //app.post('/api/upload', upload.single('myFile'), apiController.postFileUpload);
