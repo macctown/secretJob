@@ -1,13 +1,12 @@
 {
-  "name": "hackathon-starter",
-  "version": "3.5.0",
+  "name": "jobelt",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/macctown/secretJob.git"
   },
   "scripts": {
-    "start": "node app.js",
-    "test": "mocha --reporter spec --timeout 5000"
+    "start": "node server.js"
   },
   "dependencies": {
     "async": "^2.0.0-rc.4",
@@ -68,11 +67,6 @@
     "validator": "^5.2.0",
     "winston": "^2.3.1",
     "yui": "^3.18.1"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
   },
   "license": "MIT"
 }
